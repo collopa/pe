@@ -1,0 +1,71 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1828,         63]
+NotebookOptionsPosition[      1416,         47]
+NotebookOutlinePosition[      1751,         62]
+CellTagsIndexPosition[      1708,         59]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"Mod", "[", 
+         RowBox[{"i", ",", "3"}], "]"}], "\[Equal]", "0"}], " ", "||", " ", 
+       RowBox[{
+        RowBox[{"Mod", "[", 
+         RowBox[{"i", ",", "5"}], "]"}], "\[Equal]", "0"}]}], ",", "i", ",", 
+      "0"}], "]"}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"i", ",", "0", ",", "1000"}], "}"}]}], "]"}], "//", 
+  "Total"}]], "Input",
+ CellChangeTimes->{{3.788214652039439*^9, 3.788214713772153*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"d9d6ce30-0dec-4373-845f-0642298892b6"],
+
+Cell[BoxData["234168"], "Output",
+ CellChangeTimes->{{3.788214706681779*^9, 3.788214714748732*^9}},
+ CellLabel->"Out[2]=",ExpressionUUID->"812a3abf-57dc-482e-ba1f-ff6d6857a8c6"]
+}, Open  ]]
+},
+WindowSize->{808, 755},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 640, 18, 30, "Input",ExpressionUUID->"d9d6ce30-0dec-4373-845f-0642298892b6"],
+Cell[1223, 42, 177, 2, 68, "Output",ExpressionUUID->"812a3abf-57dc-482e-ba1f-ff6d6857a8c6"]
+}, Open  ]]
+}
+]
+*)
+
