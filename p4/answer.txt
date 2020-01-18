@@ -1,0 +1,29 @@
+This isn't an especially fun problem since we can just construct a number with the desired property. The answer is
+
+19*17*13*11*7*5*3*3*2*2*2*2 = 232,792,560
+
+and we get this by working from the prime factors of the first 20 numbers:
+
+1 we get for free
+2 is a prime
+3 is a prime
+4 = 2*2 (encompasses 2)
+5 is a prime
+6 = 2*3 both of which we already have
+7 is a prime
+8 = 2*2*2 (encompasses 4 and 2)
+9 = 3*3 (encompasses 3)
+10 = 5*2 both of which we already have
+11 is a prime
+12 = 2*2*3 all of which we have
+13 is a prime
+14 is 2*7 both of which we have
+15 = 3*5 both of which we have
+16 = 2*2*2*2 (which encompasses 8, 4, 2)
+17 is a prime
+18 = 2*3*3 all of which we have
+19 is a prime
+20 = 2*2*5 all of which we have
+
+So all we need is to do is multiply 19, 17, 13, 11, 7, 5, 3, 3, 2, 2, 2, 2 together.
+
